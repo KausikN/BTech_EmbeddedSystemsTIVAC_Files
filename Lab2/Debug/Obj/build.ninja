@@ -1,0 +1,28 @@
+#Generating source browse information for project LEDGlow
+
+
+#Abbreviations
+cc = E$:\EmbeddedARM\common\bin\SourceIndexer.exe
+ll = E$:\EmbeddedARM\common\bin\PbdLink.exe
+bd = E$:\EmbeddedARM\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build cstartup_M.pbi : index cstartup_M.xcl
+build main.pbi : index main.xcl
+build LEDGlow.pbd : link cstartup_M.pbi main.pbi
+build LEDGlow.pbw : browsedata LEDGlow.pbd
+
+
