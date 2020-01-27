@@ -5,39 +5,39 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Exe\LEDGlow.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\cstartup_M.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\cstartup_M.o</file>
             <file>$PROJ_DIR$\Debug\Obj\cstartup_M.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$PROJ_DIR$\..\Header_files\LM4F120H5QR.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\LEDGlow.pbd</file>
-            <file>$PROJ_DIR$\Debug\List\LEDGlow.map</file>
             <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cstartup_M.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\..\Header_files\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\LEDGlow.out</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\List\LEDGlow.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cstartup_M.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\cstartup_M.xcl</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
             <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LEDGlow.pbd</file>
             <file>$TOOLKIT_DIR$\inc\c\time32.h</file>
+            <file>$PROJ_DIR$\cstartup_M.c</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\Header_files\LM4F120H5QR.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 0 15</file>
+                    <file> 8 12</file>
                 </tool>
             </outputs>
         </file>
@@ -46,13 +46,36 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 15</file>
+                    <file> 12</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 7 9 1 8 12 17 6</file>
+                    <file> 19 14 13 9 24 6 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20 4 10 17 15 5 18 22</file>
                 </tool>
             </inputs>
         </file>
@@ -61,40 +84,17 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9</file>
+                    <file> 14</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 10</file>
+                    <file> 0</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 22</file>
+                    <file> 2</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 1</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 16</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 2 19 21 11 5 23 25</file>
-                </tool>
-            </inputs>
         </file>
     </configuration>
     <configuration>
