@@ -21,8 +21,7 @@ rule browsedata
 
 #Build steps
 build cstartup_M.pbi : index cstartup_M.xcl
-build main.pbi : index main.xcl
-build LEDGlow.pbd : link cstartup_M.pbi main.pbi
+build LEDGlow.pbd : link cstartup_M.pbi
 build LEDGlow.pbw : browsedata LEDGlow.pbd
 
 

@@ -1,8 +1,7 @@
 main.pbi: \
   E:\Github\ Codes\ and\ Projects\EmbeddedSystems_Files\TIVAC_Files\main.c \
-  E:\EmbeddedARM\arm\inc\c\stdio.h E:\EmbeddedARM\arm\inc\c\ycheck.h \
+  E:\EmbeddedARM\arm\inc\c\time.h E:\EmbeddedARM\arm\inc\c\ycheck.h \
   E:\EmbeddedARM\arm\inc\c\yvals.h \
   E:\EmbeddedARM\arm\inc\c\DLib_Defaults.h \
   E:\EmbeddedARM\arm\inc\c\DLib_Product.h \
-  E:\EmbeddedARM\arm\inc\c\ysizet.h E:\EmbeddedARM\arm\inc\c\time.h \
-  E:\EmbeddedARM\arm\inc\c/time32.h
+  E:\EmbeddedARM\arm\inc\c\ysizet.h E:\EmbeddedARM\arm\inc\c/time32.h
