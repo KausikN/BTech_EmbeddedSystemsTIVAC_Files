@@ -1,0 +1,100 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "1",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@17@F@main@x",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x",
+    "location": {
+      "column": "7",
+      "line": "3",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\main.c"
+    },
+    "name": "x",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@17@F@main@y",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "y",
+    "location": {
+      "column": "10",
+      "line": "3",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\main.c"
+    },
+    "name": "y",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@17@F@main@z",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "z",
+    "location": {
+      "column": "13",
+      "line": "3",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\main.c"
+    },
+    "name": "z",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@187@F@main@maxVal",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "maxVal",
+    "location": {
+      "column": "7",
+      "line": "14",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\main.c"
+    },
+    "name": "maxVal",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@263@F@main@overflowVal",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "overflowVal",
+    "location": {
+      "column": "7",
+      "line": "15",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\main.c"
+    },
+    "name": "overflowVal",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@317@F@main@x2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x2",
+    "location": {
+      "column": "7",
+      "line": "16",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\main.c"
+    },
+    "name": "x2",
+    "origin": "project_file",
+    "scope": null
+  }
+]
