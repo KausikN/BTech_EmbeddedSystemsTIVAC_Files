@@ -1,0 +1,15 @@
+"E:\EmbeddedARM\arm\bin\armproc.dll" 
+
+"E:\EmbeddedARM\arm\bin\armlmiftdi.dll" 
+
+"E:\Github Codes and Projects\EmbeddedSystems_Files\TIVAC_Files\LEDGlow\Debug\Exe\LEDGlow.out" 
+
+--plugin="E:\EmbeddedARM\arm\bin\armbat.dll" 
+
+--device_macro="E:\EmbeddedARM\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
+
+--flash_loader="E:\EmbeddedARM\arm\config\flashloader\TexasInstruments\FlashTC4_H6_o.board" 
+
+
+
+

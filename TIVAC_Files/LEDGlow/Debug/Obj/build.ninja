@@ -1,4 +1,4 @@
-#Generating source browse information for project CPSRBitSet
+#Generating source browse information for project LEDGlow
 
 
 #Abbreviations
@@ -20,5 +20,8 @@ rule browsedata
 
 
 #Build steps
+build main.pbi : index main.xcl
+build LEDGlow.pbd : link main.pbi
+build LEDGlow.pbw : browsedata LEDGlow.pbd
 
 

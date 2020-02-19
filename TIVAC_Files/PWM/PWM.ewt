@@ -2372,15 +2372,6 @@
         </settings>
     </configuration>
     <file>
-        <name>$PROJ_DIR$\cstartup_M.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\..\Header_files\LM4F120H5QR.h</name>
-    </file>
-    <file>
         <name>$PROJ_DIR$\main.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\..\Header_files\tm4c123gh6pm.h</name>
     </file>
 </project>

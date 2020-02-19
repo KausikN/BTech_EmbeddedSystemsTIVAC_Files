@@ -78,7 +78,7 @@
                 </option>
                 <option>
                     <name>OGChipSelectEditMenu</name>
-                    <state>TM4C123GH6PM	TexasInstruments TM4C123GH6PM</state>
+                    <state>TM4C123BH6PM	TexasInstruments TM4C123BH6PM</state>
                 </option>
                 <option>
                     <name>GenLowLevelInterface</name>
@@ -138,7 +138,7 @@
                 </option>
                 <option>
                     <name>GFPUDeviceSlave</name>
-                    <state>TM4C123GH6PM	TexasInstruments TM4C123GH6PM</state>
+                    <state>TM4C123BH6PM	TexasInstruments TM4C123BH6PM</state>
                 </option>
                 <option>
                     <name>FPU2</name>
@@ -772,7 +772,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -832,7 +832,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state>__iar_program_start</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -1005,7 +1005,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>LEDGlow_import_lib.o</state>
+                    <state>###Unitialized###</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -2112,15 +2112,6 @@
         </settings>
     </configuration>
     <file>
-        <name>$PROJ_DIR$\cstartup_M.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\..\Header_files\LM4F120H5QR.h</name>
-    </file>
-    <file>
         <name>$PROJ_DIR$\main.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\..\Header_files\tm4c123gh6pm.h</name>
     </file>
 </project>

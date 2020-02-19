@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspace>
     <project>
-        <path>$WS_DIR$\CPSRBitSet.ewp</path>
+        <path>$WS_DIR$\LEDGlow.ewp</path>
     </project>
     <project>
-        <path>$WS_DIR$\LEDGlow.ewp</path>
+        <path>$WS_DIR$\..\PWM\PWM.ewp</path>
     </project>
     <batchBuild />
 </workspace>
