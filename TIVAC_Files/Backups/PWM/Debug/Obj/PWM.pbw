@@ -95989,13 +95989,125 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@59@macro@BLACK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BLACK",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
+    },
+    "name": "BLACK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@80@macro@RED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RED",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
+    },
+    "name": "RED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@99@macro@BLUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BLUE",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
+    },
+    "name": "BLUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@119@macro@GREEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GREEN",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
+    },
+    "name": "GREEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@140@macro@PURPLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PURPLE",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
+    },
+    "name": "PURPLE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@162@macro@YELLOW",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "YELLOW",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
+    },
+    "name": "YELLOW",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@184@macro@CYAN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CYAN",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
+    },
+    "name": "CYAN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@204@macro@WHITE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WHITE",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
+    },
+    "name": "WHITE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@delayMs",
     "What": "Function",
     "defdec": "Dec",
     "display": "void delayMs(int)",
     "location": {
       "column": "6",
-      "line": "4",
+      "line": "13",
       "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
     },
     "name": "delayMs",
@@ -96009,7 +96121,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "6",
+      "line": "15",
       "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
     },
     "name": "main",
@@ -96017,16 +96129,16 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@98@F@main@x",
+    "ID": "c:main.c@2003@F@main@result",
     "What": "Variable",
     "defdec": "Def",
-    "display": "x",
+    "display": "result",
     "location": {
-      "column": "7",
-      "line": "8",
+      "column": "16",
+      "line": "68",
       "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
     },
-    "name": "x",
+    "name": "result",
     "origin": "project_file",
     "scope": null
   },
@@ -96037,7 +96149,7 @@
     "display": "void delayMs(int)",
     "location": {
       "column": "6",
-      "line": "40",
+      "line": "99",
       "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
     },
     "name": "delayMs",
@@ -96045,13 +96157,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1264@F@delayMs@i",
+    "ID": "c:main.c@3828@F@delayMs@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "7",
-      "line": "42",
+      "line": "101",
       "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
     },
     "name": "i",
@@ -96059,13 +96171,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1264@F@delayMs@j",
+    "ID": "c:main.c@3828@F@delayMs@j",
     "What": "Variable",
     "defdec": "Dec",
     "display": "j",
     "location": {
       "column": "10",
-      "line": "42",
+      "line": "101",
       "path": "E:\\Github Codes and Projects\\EmbeddedSystems_Files\\TIVAC_Files\\PWM\\main.c"
     },
     "name": "j",

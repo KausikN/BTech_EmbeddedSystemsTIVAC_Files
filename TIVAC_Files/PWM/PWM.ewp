@@ -44,7 +44,7 @@
                 </option>
                 <option>
                     <name>OGCoreOrChip</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>GRuntimeLibSelect</name>
@@ -365,7 +365,7 @@
                 </option>
                 <option>
                     <name>CCOptLevel</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CCOptStrategy</name>
@@ -374,7 +374,7 @@
                 </option>
                 <option>
                     <name>CCOptLevelSlave</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CompilerMisraRules98</name>
@@ -772,7 +772,7 @@
                 </option>
                 <option>
                     <name>IlinkIcfFile</name>
-                    <state></state>
+                    <state>$TOOLKIT_DIR$\CONFIG\generic_cortex.icf</state>
                 </option>
                 <option>
                     <name>IlinkIcfFileSlave</name>
@@ -832,7 +832,7 @@
                 </option>
                 <option>
                     <name>IlinkProgramEntryLabel</name>
-                    <state></state>
+                    <state>__iar_program_start</state>
                 </option>
                 <option>
                     <name>DoFill</name>
@@ -1005,7 +1005,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
-                    <state>###Unitialized###</state>
+                    <state>PWM_import_lib.o</state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>

@@ -5,70 +5,70 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Exe\PWM.out</file>
             <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\PWM.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$PROJ_DIR$\Debug\List\PWM.map</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123BH6.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$TOOLKIT_DIR$\inc\tm4c123gh6pm.h</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\PWM.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\PWM.pbd</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 0 12</file>
+                    <file> 13 2</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 15 3 14 5 6 8</file>
+                </tool>
+            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\PWM.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 12</file>
+                    <file> 2</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 14 2 13 11 17 16</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 2</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 5</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 4</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 6 7 8 9 10 18 15</file>
+                    <file> 4 7 17 1 10 9</file>
                 </tool>
             </inputs>
         </file>
