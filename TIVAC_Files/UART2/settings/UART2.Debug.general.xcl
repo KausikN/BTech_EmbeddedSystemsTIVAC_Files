@@ -1,0 +1,13 @@
+"E:\EmbeddedARM\arm\bin\armproc.dll" 
+
+"E:\EmbeddedARM\arm\bin\armsim2.dll" 
+
+"E:\Github Codes and Projects\EmbeddedSystems_Files\TIVAC_Files\UART2\Debug\Exe\UART2.out" 
+
+--plugin="E:\EmbeddedARM\arm\bin\armbat.dll" 
+
+--device_macro="E:\EmbeddedARM\arm\config\debugger\TexasInstruments\TM4C123.dmac" 
+
+
+
+

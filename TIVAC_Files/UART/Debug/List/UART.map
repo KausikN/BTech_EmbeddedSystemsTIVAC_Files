@@ -1,0 +1,182 @@
+###############################################################################
+#
+# IAR ELF Linker V8.42.1.233/W32 for ARM                  04/Mar/2020  14:40:45
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        E:\Github Codes and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\UART\Debug\Exe\UART.out
+#    Map file     =
+#        E:\Github Codes and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\UART\Debug\List\UART.map
+#    Command line =
+#        -f C:\Users\KAUSIK~1\AppData\Local\Temp\EWD69.tmp ("E:\Github Codes
+#        and Projects\EmbeddedSystems_Files\TIVAC_Files\UART\Debug\Obj\main.o"
+#        --no_out_extension -o "E:\Github Codes and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\UART\Debug\Exe\UART.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "E:\Github Codes and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\UART\Debug\List\UART.map"
+#        --config
+#        E:\EmbeddedARM\arm\config\linker\TexasInstruments\TM4C123GH6.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                               0x40
+  .intvec   ro code          0x0    0x40  vector_table_M.o [4]
+                          - 0x40    0x40
+
+"P1":                              0x4f0
+  .text     ro code         0x40   0x3e8  main.o [1]
+  .rodata   const          0x428    0x90  main.o [1]
+  .text     ro code        0x4b8    0x22  fpinit_M.o [3]
+  .text     ro code        0x4da     0x2  vector_table_M.o [4]
+  .text     ro code        0x4dc    0x1e  cmain.o [4]
+  .text     ro code        0x4fa     0x4  low_level_init.o [2]
+  .text     ro code        0x4fe     0x4  exit.o [2]
+  .text     ro code        0x504     0xa  cexit.o [4]
+  .text     ro code        0x510    0x14  exit.o [5]
+  .text     ro code        0x524     0xc  cstartup_M.o [4]
+                         - 0x530   0x4f0
+
+"P2":                             0x1000
+  CSTACK             0x2000'0000  0x1000  <Block>
+    CSTACK  uninit   0x2000'0000  0x1000  <Block tail>
+                   - 0x2000'1000  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x530     0x3'ffff  0x3'fad0
+  0x2000'1000  0x2000'7fff    0x7000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+E:\Github Codes and Projects\EmbeddedSystems_Files\TIVAC_Files\UART\Debug\Obj: [1]
+    main.o              1'000      144
+    -------------------------------------------
+    Total:              1'000      144
+
+dl7M_tln.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           12
+    vector_table_M.o       66
+    -------------------------------------------
+    Total:                118
+
+shb_l.a: [5]
+    exit.o                 20
+    -------------------------------------------
+    Total:                 20
+
+    Gaps                    4
+    Linker created                        4'096
+-----------------------------------------------
+    Grand Total:        1'184      144    4'096
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+?main                         0x4dd         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'0000          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1000          --   Gb  - Linker created -
+GPIODirModeSet                 0x5f   0x4e  Code  Gb  main.o [1]
+GPIOPadConfigSet               0xad  0x214  Code  Gb  main.o [1]
+GPIOPinConfigure              0x2e3   0x4c  Code  Gb  main.o [1]
+GPIOPinTypeUART               0x2c1   0x22  Code  Gb  main.o [1]
+Region$$Table$$Base             0x0          --   Gb  - Linker created -
+Region$$Table$$Limit            0x0          --   Gb  - Linker created -
+SysCtlPeripheralEnable        0x32f   0x1e  Code  Gb  main.o [1]
+UARTCharGet                    0x41    0xe  Code  Gb  main.o [1]
+UARTCharPut                    0x4f   0x10  Code  Gb  main.o [1]
+UART_SendQuestion             0x34d   0x18  Code  Gb  main.o [1]
+__cmain                       0x4dd         Code  Gb  cmain.o [4]
+__exit                        0x511   0x14  Code  Gb  exit.o [5]
+__iar_init_vfp                0x4b9         Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x525         Code  Gb  cstartup_M.o [4]
+__low_level_init              0x4fb    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0         Data  Gb  vector_table_M.o [4]
+_call_main                    0x4e9         Code  Gb  cmain.o [4]
+_exit                         0x505         Code  Gb  cexit.o [4]
+_main                         0x4f7         Code  Gb  cmain.o [4]
+exit                          0x4ff    0x4  Code  Gb  exit.o [2]
+g_pui32GPIOBaseAddrs          0x428   0x90  Data  Lc  main.o [1]
+main                          0x371   0x7e  Code  Gb  main.o [1]
+
+
+[1] = E:\Github Codes and Projects\EmbeddedSystems_Files\TIVAC_Files\UART\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  1'184 bytes of readonly  code memory
+    144 bytes of readonly  data memory
+  4'096 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

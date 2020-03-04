@@ -1,4 +1,4 @@
-#Generating source browse information for project CPSRBitSet
+#Generating source browse information for project UART2
 
 
 #Abbreviations
@@ -20,5 +20,8 @@ rule browsedata
 
 
 #Build steps
+build main.pbi : index main.xcl
+build UART2.pbd : link main.pbi
+build UART2.pbw : browsedata UART2.pbd
 
 

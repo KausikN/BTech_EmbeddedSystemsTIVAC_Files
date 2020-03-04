@@ -1,2 +1,38 @@
 main.pbi: \
-  E:\Github\ Codes\ and\ Projects\EmbeddedSystems_Files\TIVAC_Files\main.c
+  E:\Github\ Codes\ and\ Projects\EmbeddedSystems_Files\TIVAC_Files\main.c \
+  E:\EmbeddedARM\arm\inc\c\stdint.h E:\EmbeddedARM\arm\inc\c\ycheck.h \
+  E:\EmbeddedARM\arm\inc\c\yvals.h \
+  E:\EmbeddedARM\arm\inc\c\DLib_Defaults.h \
+  E:\\EmbeddedARM\\arm\\inc\\c\\DLib_Config_Normal.h \
+  E:\EmbeddedARM\arm\inc\c\DLib_Product.h \
+  E:\Github\ Codes\ and\ Projects\EmbeddedSystems_Files\TIVAC_Files\tm4c123gh6pm.h \
+  E:\EmbeddedARM\arm\inc\uartstdio.h E:\EmbeddedARM\arm\inc\c\stdarg.h \
+  E:\EmbeddedARM\arm\inc\uartstdio.c E:\EmbeddedARM\arm\inc\c\stdbool.h \
+  E:\EmbeddedARM\arm\inc/inc/hw_ints.h \
+  E:\EmbeddedARM\arm\inc/inc/hw_memmap.h \
+  E:\EmbeddedARM\arm\inc/inc/hw_types.h \
+  E:\EmbeddedARM\arm\inc/inc/hw_uart.h \
+  E:\EmbeddedARM\arm\inc/driverlib/debug.h \
+  E:\EmbeddedARM\arm\inc/driverlib/interrupt.h \
+  E:\EmbeddedARM\arm\inc/driverlib/rom.h \
+  E:\EmbeddedARM\arm\inc/driverlib/rom_map.h \
+  E:\EmbeddedARM\arm\inc/driverlib/sysctl.h \
+  E:\EmbeddedARM\arm\inc/driverlib/uart.h \
+  E:\EmbeddedARM\arm\inc/utils/uartstdio.h \
+  E:\EmbeddedARM\arm\inc\driverlib/uart.h \
+  E:\EmbeddedARM\arm\inc\driverlib/uart.c \
+  E:\EmbeddedARM\arm\inc\inc/hw_ints.h \
+  E:\EmbeddedARM\arm\inc\inc/hw_memmap.h \
+  E:\EmbeddedARM\arm\inc\inc/hw_sysctl.h \
+  E:\EmbeddedARM\arm\inc\inc/hw_types.h \
+  E:\EmbeddedARM\arm\inc\inc/hw_uart.h \
+  E:\EmbeddedARM\arm\inc\driverlib/debug.h \
+  E:\EmbeddedARM\arm\inc\driverlib/interrupt.h \
+  E:\EmbeddedARM\arm\inc\driverlib/gpio.h \
+  E:\EmbeddedARM\arm\inc\driverlib/gpio.c \
+  E:\EmbeddedARM\arm\inc\inc/hw_gpio.h \
+  E:\EmbeddedARM\arm\inc\driverlib/sysctl.h \
+  E:\EmbeddedARM\arm\inc\driverlib/sysctl.c \
+  E:\EmbeddedARM\arm\inc\inc/hw_nvic.h \
+  E:\EmbeddedARM\arm\inc\inc/hw_flash.h \
+  E:\EmbeddedARM\arm\inc\driverlib/cpu.h
