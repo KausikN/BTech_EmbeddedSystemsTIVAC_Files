@@ -5,94 +5,94 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\inc\inc\hw_memmap.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$TOOLKIT_DIR$\inc\inc\hw_ints.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$TOOLKIT_DIR$\inc\inc\hw_uart.h</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\debug.h</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\tm4c123gh6pm.h</file>
-            <file>$TOOLKIT_DIR$\inc\inc\hw_types.h</file>
-            <file>$PROJ_DIR$\Debug\List\UART2.map</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\sysctl.c</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\gpio.c</file>
-            <file>$TOOLKIT_DIR$\inc\inc\hw_flash.h</file>
-            <file>$TOOLKIT_DIR$\inc\inc\hw_gpio.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\rom_map.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
-            <file>$TOOLKIT_DIR$\inc\uartstdio.c</file>
-            <file>$TOOLKIT_DIR$\inc\utils\uartstdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\sysctl.h</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\uart.c</file>
-            <file>$PROJ_DIR$\Debug\Exe\UART2.out</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\cpu.h</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\UART2.pbd</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\gpio.h</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\rom.h</file>
-            <file>$TOOLKIT_DIR$\inc\driverlib\uart.h</file>
-            <file>$TOOLKIT_DIR$\inc\inc\hw_nvic.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\inc\uartstdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\inc\hw_nvic.h</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\gpio.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\uart.h</file>
             <file>$TOOLKIT_DIR$\inc\inc\hw_sysctl.h</file>
             <file>$TOOLKIT_DIR$\inc\driverlib\interrupt.h</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\rom.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\uartstdio.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\inc\hw_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\inc\hw_uart.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\inc\hw_flash.h</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\sysctl.c</file>
+            <file>$TOOLKIT_DIR$\inc\utils\uartstdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\uart.c</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\sysctl.h</file>
+            <file>$TOOLKIT_DIR$\inc\tm4c123gh6pm.h</file>
+            <file>$TOOLKIT_DIR$\inc\uartstdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\cpu.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\List\UART2.map</file>
+            <file>$TOOLKIT_DIR$\inc\inc\hw_types.h</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\UART2.out</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\inc\hw_ints.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\rom_map.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\driverlib\debug.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\UART2.pbd</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 27 12</file>
+                    <file> 29 25</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 9</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 30</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 1</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 36 38 21 37 7 8 10 40 22 23 3 2 0 11 4 5 42 33 20 25 34 24 26 41 32 16 18 13 35 17 28</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\UART2.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 12</file>
+                    <file> 25</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 29 9 15 39 14 19</file>
+                    <file> 35 8 30 40 24 13</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34 41 36 0 38 10 21 22 14 9 3 31 28 26 12 39 6 7 37 20 4 17 19 5 27 2 11 16 1 15 23</file>
                 </tool>
             </inputs>
         </file>

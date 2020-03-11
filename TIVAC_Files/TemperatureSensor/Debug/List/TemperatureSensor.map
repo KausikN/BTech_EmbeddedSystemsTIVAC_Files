@@ -1,0 +1,172 @@
+###############################################################################
+#
+# IAR ELF Linker V8.42.1.233/W32 for ARM                  11/Mar/2020  16:59:34
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        E:\Github Codes and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\TemperatureSensor\Debug\Exe\TemperatureSensor.out
+#    Map file     =
+#        E:\Github Codes and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\TemperatureSensor\Debug\List\TemperatureSensor.map
+#    Command line =
+#        -f C:\Users\KAUSIK~1\AppData\Local\Temp\EW5520.tmp ("E:\Github Codes
+#        and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\TemperatureSensor\Debug\Obj\main.o"
+#        --no_out_extension -o "E:\Github Codes and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\TemperatureSensor\Debug\Exe\TemperatureSensor.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "E:\Github Codes and
+#        Projects\EmbeddedSystems_Files\TIVAC_Files\TemperatureSensor\Debug\List\TemperatureSensor.map"
+#        --config
+#        E:\EmbeddedARM\arm\config\linker\TexasInstruments\TM4C123GH6.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                               0x40
+  .intvec   ro code          0x0    0x40  vector_table_M.o [3]
+                          - 0x40    0x40
+
+"P1":                              0x308
+  .text     ro code         0x40   0x248  main.o [1]
+  .text     ro code        0x288    0x56  ABImemcpy_unaligned.o [3]
+  .text     ro code        0x2de     0x2  vector_table_M.o [3]
+  .text     ro code        0x2e0    0x1e  cmain.o [3]
+  .text     ro code        0x2fe     0x4  low_level_init.o [2]
+  .text     ro code        0x302     0x4  exit.o [2]
+  .text     ro code        0x308     0xa  cexit.o [3]
+  .text     ro code        0x314    0x14  exit.o [4]
+  .rodata   const          0x328    0x14  main.o [1]
+  .text     ro code        0x33c     0xc  cstartup_M.o [3]
+                         - 0x348   0x308
+
+"P2":                             0x1000
+  CSTACK             0x2000'0000  0x1000  <Block>
+    CSTACK  uninit   0x2000'0000  0x1000  <Block tail>
+                   - 0x2000'1000  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x348     0x3'ffff  0x3'fcb8
+  0x2000'1000  0x2000'7fff    0x7000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+E:\Github Codes and Projects\EmbeddedSystems_Files\TIVAC_Files\TemperatureSensor\Debug\Obj: [1]
+    main.o                     584       20
+    ------------------------------------------------
+    Total:                     584       20
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [3]
+    ABImemcpy_unaligned.o       86
+    cexit.o                     10
+    cmain.o                     30
+    cstartup_M.o                12
+    vector_table_M.o            66
+    ------------------------------------------------
+    Total:                     204
+
+shb_l.a: [4]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         4
+    Linker created                             4'096
+----------------------------------------------------
+    Grand Total:               820       20    4'096
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+?main                         0x2e1         Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0000          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1000          --   Gb  - Linker created -
+Region$$Table$$Base             0x0          --   Gb  - Linker created -
+Region$$Table$$Limit            0x0          --   Gb  - Linker created -
+__cmain                       0x2e1         Code  Gb  cmain.o [3]
+__exit                        0x315   0x14  Code  Gb  exit.o [4]
+__iar_program_start           0x33d         Code  Gb  cstartup_M.o [3]
+__iar_unaligned_memcpy4
+                              0x289         Code  Gb  ABImemcpy_unaligned.o [3]
+__iar_unaligned_memcpy8
+                              0x289         Code  Gb  ABImemcpy_unaligned.o [3]
+__low_level_init              0x2ff    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0         Data  Gb  vector_table_M.o [3]
+_call_main                    0x2ed         Code  Gb  cmain.o [3]
+_exit                         0x309         Code  Gb  cexit.o [3]
+_main                         0x2fb         Code  Gb  cmain.o [3]
+exit                          0x303    0x4  Code  Gb  exit.o [2]
+main                           0x41  0x1be  Code  Gb  main.o [1]
+
+
+[1] = E:\Github Codes and Projects\EmbeddedSystems_Files\TIVAC_Files\TemperatureSensor\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    820 bytes of readonly  code memory
+     20 bytes of readonly  data memory
+  4'096 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

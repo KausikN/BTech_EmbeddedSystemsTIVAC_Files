@@ -1,0 +1,12 @@
+main.pbi: \
+  E:\Github\ Codes\ and\ Projects\EmbeddedSystems_Files\TIVAC_Files\UART_NOAPI\main.c \
+  E:\EmbeddedARM\arm\inc\c\string.h E:\EmbeddedARM\arm\inc\c\ycheck.h \
+  E:\EmbeddedARM\arm\inc\c\yvals.h \
+  E:\EmbeddedARM\arm\inc\c\DLib_Defaults.h \
+  E:\\EmbeddedARM\\arm\\inc\\c\\DLib_Config_Normal.h \
+  E:\EmbeddedARM\arm\inc\c\DLib_Product.h \
+  E:\EmbeddedARM\arm\inc\c\ysizet.h \
+  E:\EmbeddedARM\arm\inc\c\DLib_Product_string.h \
+  E:\EmbeddedARM\arm\inc\c\stdlib.h \
+  E:\EmbeddedARM\arm\inc\c\DLib_Product_stdlib.h \
+  E:\EmbeddedARM\arm\inc\tm4c123gh6pm.h
