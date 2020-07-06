@@ -87,12 +87,12 @@ void msdelay (unsigned int time); //Function to generate delay
 #define off 0x00
 
 
-int delayms (int tiempo){
-    int resultado = 1000 * (tiempo / (0.0000625*1000));
+int delayms (int timeDelay){
+    int resultado = 1000 * (timeDelay / (0.0000625*1000));
     return resultado;
 }
-int delayus (int tiempo){
-    int resultado = 1000 * (tiempo / (0.0625*1000));
+int delayus (int timeDelay){
+    int resultado = 1000 * (timeDelay / (0.0625*1000));
     return resultado;
 }
 
