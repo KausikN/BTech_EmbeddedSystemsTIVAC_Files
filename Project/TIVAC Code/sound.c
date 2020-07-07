@@ -1,7 +1,7 @@
 #include "sound.h"
 #include "dac.h"
 #include "piano.h"
-#include "..//tm4c123gh6pm.h"
+#include "tm4c123gh6pm.h"
 
 // a smooth digital value for analog sine wave
 const unsigned char SINE_WAVE[16] = {
@@ -38,32 +38,24 @@ void InitSound(void) {
     NVIC_ST_CTRL_R = 0x0007;       // enable, source clock, and interrupts
 }
 
-/**
+/*
  * Changes SysTick periodic interrupts to start sound output
- *
- * @param  period  interrupt period
- *                 1 unit of period = 12.5 ns
- *                 maximum is 2^24 - 1
- *                 minimum is determined by the length of ISR
- */
+*/
 void PlaySound(unsigned long period) {
     // reset the RELOAD value for different frequencies
     NVIC_ST_RELOAD_R = (period - 1) & 0x00FFFFFF;
 }
 
-/**
+/*
  * Stops outputing to DAC
- */
+*/
 void StopSound(void) {
-    GPIO_PORTB_DATA_R &= ~0x0F; // clear PB3-PB0
+    GPIO_PORTB_DATA_R &= ~0x0F; // clear PB7-PB0
 }
 
-/**
+/*
  * SysTick interrupt service routine
- * Executed every (12.5 ns) * (period)
- *
- * @assumption    80-MHz clock
- */
+*/
 void SysTick_Handler(void) {
     if (freq_index != 8) {
         // only executes if there is non-zero input
