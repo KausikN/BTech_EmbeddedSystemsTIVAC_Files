@@ -1,16 +1,3 @@
-/**
- * @file     sound.c
- * @author   Phi Luu
- * @date     April 22, 2016
- *
- * @brief    UTAustinX: UT.6.03x Embedded Systems - Shape the World
- *           Lab 13: Digital-Analog Conversion
- *
- * @section  DESCRIPTION
- *
- * Takes data from piano.h and piano.c and uses DAC to play the sound.
- */
-
 #include "sound.h"
 #include "dac.h"
 #include "piano.h"
@@ -28,10 +15,10 @@ unsigned char index = 0;
 
 // convert from the frequency of the SysTick
 // to the frequency of the sound wave
-// has 4 elements representing the most suitable value
+// has 8 elements representing the most suitable value
 // f_sound = f_SysTick / 16
-const unsigned long FREQ_SYSTICK_TO_WAVE[4] = {
-    9550, 8508, 7570, 6366
+const unsigned long FREQ_SYSTICK_TO_WAVE[8] = {
+    9550, 8508, 7570, 6366, 5532, 4423, 3588, 2499
 };
 
 /**
@@ -78,7 +65,7 @@ void StopSound(void) {
  * @assumption    80-MHz clock
  */
 void SysTick_Handler(void) {
-    if (freq_index != 4) {
+    if (freq_index != 8) {
         // only executes if there is non-zero input
         index = (index + 1) & 0x0F; // cycles from 0-15
         OutDac(SINE_WAVE[index]);   // output 1 data each interrupt
