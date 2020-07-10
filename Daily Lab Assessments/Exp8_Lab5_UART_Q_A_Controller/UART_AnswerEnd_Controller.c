@@ -206,7 +206,7 @@ int main()
 	free(string);
     }
 */
-    QController();
-    //AController();
+    //QController();
+    AController();
     return 0;
 }
