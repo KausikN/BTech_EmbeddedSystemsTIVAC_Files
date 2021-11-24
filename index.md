@@ -28,4 +28,4 @@
     - [Exp 7: PWM Motor Speed and Direction Controller](Daily_Lab_Assessments/Exp7_Lab4_PWM_Motor_Speed_And_Direction_Control/)
     - [Exp 8: UART QA Controller](Daily_Lab_Assessments/Exp8_Lab5_UART_Q_A_Controller/)
     - [Exp 9: NTC Temperature Sensor Motor Controller](Daily_Lab_Assessments/Exp9_Lab6_NTC_Temperature_Sensor_Motor_Control/)
-    - [Exp 10: SPI QA Controller](Daily_Lab_Assessments/Exp10_Lab7_SPI_Q_A_Controller/)1
+    - [Exp 10: SPI QA Controller](Daily_Lab_Assessments/Exp10_Lab7_SPI_Q_A_Controller/)
